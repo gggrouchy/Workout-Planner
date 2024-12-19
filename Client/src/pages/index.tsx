@@ -18,7 +18,8 @@ const geistMono = Geist_Mono({
 export default function Home() {
   return (
     <main className={styles.main}>
-      
+      <Navbar/>
+      <HomeBanner/>
       </main>
   );
 }
