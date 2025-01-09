@@ -5,9 +5,12 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <div>
+    <nav>
       <Image src = {logo} alt="logo"/> 
-    </div>
+      <Link href='/'>Home</Link>
+      <Link href='/'>About</Link>
+      <button>Sign Out</button>
+    </nav>
   )
 }
 
